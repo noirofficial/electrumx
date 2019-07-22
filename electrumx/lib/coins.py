@@ -2416,3 +2416,5 @@ class Noir(Coin):
     TX_COUNT = 586369
     TX_COUNT_HEIGHT = 379290
     TX_PER_BLOCK = 5
+
+    DESERIALIZER = lib_tx.DeserializerNoir
